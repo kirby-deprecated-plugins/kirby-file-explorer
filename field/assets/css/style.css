@@ -1,0 +1,83 @@
+.explorer-result {
+	background: #fff;
+	border: 2px solid #ddd;
+	border-bottom: none;
+	
+}
+
+.explorer-breadcrumb {
+	border-bottom: 1px solid #efefef;
+}
+
+.explorer-input {
+	border-top: 2px solid #fff;
+}
+
+.explorer-breadcrumb-item {
+	display: inline-block;
+	cursor: pointer;
+	padding: .5em;
+}
+
+.explorer-breadcrumb-item:hover {
+	text-decoration: underline;
+}
+
+.explorer-result table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.explorer-result th {
+	text-align: left;
+	font-weight: 600;
+	padding: .5em;
+	border-bottom: 1px solid #efefef;
+}
+
+.explorer-result td {
+	padding: .3em .5em;
+	border: 1px solid #efefef;
+}
+
+.explorer-result td:first-child,
+.explorer-result td:last-child {
+	width: 1px;
+}
+
+.explorer-name,
+.explorer-icon,
+.explorer-view {
+	cursor: pointer;
+}
+
+.explorer-view {
+	text-align: center;
+}
+
+.explorer-refresh {
+	float: right;
+	padding: .5em;
+	cursor: pointer;
+}
+
+.explorer-image {
+	margin-top: .5em;
+}
+
+.explorer-image img {
+	vertical-align: bottom;
+}
+
+.explorer-preview textarea {
+	width: 100%;
+	border: 2px solid #ddd;
+	margin-top: .5em;
+	padding: .5em;
+	outline: none;
+	background: #fff;
+}
+
+.explorer-result tr:nth-child(odd) td {
+	
+}
